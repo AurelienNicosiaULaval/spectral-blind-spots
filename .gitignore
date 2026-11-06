@@ -1,0 +1,9 @@
+.DS_Store
+.RData
+.Rhistory
+__pycache__/
+resultats_recalcules/
+renforcement/*_checkpoint_*.rds
+figures/*.pdf
+figures/*.png
+application/*.pdf

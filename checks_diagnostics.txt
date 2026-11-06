@@ -1,0 +1,4 @@
+Full exchange-group calibration checked at 5% and 10%.
+Field exchange-equivariance residual: 0
+Quadratic exchange-equivariance residual: 2.22044604925031e-16
+Candidate CDF moment quadrature residual: 5.55111512312578e-17

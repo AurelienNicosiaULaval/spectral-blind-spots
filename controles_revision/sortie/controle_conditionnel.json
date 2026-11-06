@@ -1,0 +1,228 @@
+{
+ "note": "Independent Python implementation of the canonical diagnostic (four sine/cosine views, moments k=0..8, l=1..8, 199 sign vectors).",
+ "unconditional": [
+  {
+   "order": 1,
+   "eta": 0.0,
+   "n": 240,
+   "R": 2000,
+   "rejections": 80,
+   "rate": 0.04,
+   "wilson": [
+    0.032256746939981165,
+    0.04950693655877153
+   ],
+   "null": true
+  },
+  {
+   "order": 1,
+   "eta": 0.0,
+   "n": 720,
+   "R": 2000,
+   "rejections": 104,
+   "rate": 0.052,
+   "wilson": [
+    0.043099720209557914,
+    0.06261795415444468
+   ],
+   "null": true
+  },
+  {
+   "order": 4,
+   "eta": 0.8,
+   "n": 240,
+   "R": 2000,
+   "rejections": 103,
+   "rate": 0.0515,
+   "wilson": [
+    0.042644720050338814,
+    0.062074871360945055
+   ],
+   "max_standardized_design_mean_quartiles": [
+    0.4419549293482081,
+    0.5327948020989861,
+    0.6368461706194197
+   ],
+   "rate_if_design_mean_above_median": 0.044,
+   "rate_if_design_mean_below_median": 0.059,
+   "null": false
+  },
+  {
+   "order": 4,
+   "eta": 0.8,
+   "n": 720,
+   "R": 2000,
+   "rejections": 92,
+   "rate": 0.046,
+   "wilson": [
+    0.03765702335931109,
+    0.05608365557206656
+   ],
+   "max_standardized_design_mean_quartiles": [
+    0.4321111517694821,
+    0.5234184355211908,
+    0.6330430168712542
+   ],
+   "rate_if_design_mean_above_median": 0.05,
+   "rate_if_design_mean_below_median": 0.042,
+   "null": false
+  },
+  {
+   "order": 2,
+   "eta": 0.8,
+   "n": 240,
+   "R": 2000,
+   "rejections": 107,
+   "rate": 0.0535,
+   "wilson": [
+    0.04446618753651597,
+    0.06424573568564287
+   ],
+   "max_standardized_design_mean_quartiles": [
+    0.4362588569123771,
+    0.5247884118481079,
+    0.6316403199857195
+   ],
+   "rate_if_design_mean_above_median": 0.05,
+   "rate_if_design_mean_below_median": 0.057,
+   "null": false
+  },
+  {
+   "order": 2,
+   "eta": 0.8,
+   "n": 720,
+   "R": 2000,
+   "rejections": 107,
+   "rate": 0.0535,
+   "wilson": [
+    0.04446618753651597,
+    0.06424573568564287
+   ],
+   "max_standardized_design_mean_quartiles": [
+    0.4347596549889063,
+    0.5241856980792229,
+    0.6297709326253386
+   ],
+   "rate_if_design_mean_above_median": 0.049,
+   "rate_if_design_mean_below_median": 0.058,
+   "null": false
+  },
+  {
+   "order": 2,
+   "eta": 0.4,
+   "n": 240,
+   "R": 2000,
+   "rejections": 87,
+   "rate": 0.0435,
+   "wilson": [
+    0.03540128785854411,
+    0.0533489763092398
+   ],
+   "max_standardized_design_mean_quartiles": [
+    0.21762204533774182,
+    0.265039765477898,
+    0.31943517996311366
+   ],
+   "rate_if_design_mean_above_median": 0.044,
+   "rate_if_design_mean_below_median": 0.043,
+   "null": false
+  },
+  {
+   "order": 2,
+   "eta": 0.4,
+   "n": 720,
+   "R": 2000,
+   "rejections": 90,
+   "rate": 0.045,
+   "wilson": [
+    0.03675381704471326,
+    0.05499069598122689
+   ],
+   "max_standardized_design_mean_quartiles": [
+    0.21571971837489773,
+    0.26277378819742997,
+    0.3131413109852427
+   ],
+   "rate_if_design_mean_above_median": 0.05,
+   "rate_if_design_mean_below_median": 0.04,
+   "null": false
+  },
+  {
+   "order": 6,
+   "eta": 0.8,
+   "n": 240,
+   "R": 2000,
+   "rejections": 109,
+   "rate": 0.0545,
+   "wilson": [
+    0.045378356153563185,
+    0.06532973297403316
+   ],
+   "max_standardized_design_mean_quartiles": [
+    0.444829884187411,
+    0.5355618488242426,
+    0.6382356247187925
+   ],
+   "rate_if_design_mean_above_median": 0.059,
+   "rate_if_design_mean_below_median": 0.05,
+   "null": false
+  },
+  {
+   "order": 6,
+   "eta": 0.8,
+   "n": 720,
+   "R": 2000,
+   "rejections": 106,
+   "rate": 0.053,
+   "wilson": [
+    0.04401045720579706,
+    0.06370338306364304
+   ],
+   "max_standardized_design_mean_quartiles": [
+    0.4548197539806012,
+    0.5437421178867747,
+    0.6482103909372171
+   ],
+   "rate_if_design_mean_above_median": 0.053,
+   "rate_if_design_mean_below_median": 0.053,
+   "null": false
+  }
+ ],
+ "fixed_design": [
+  {
+   "order": 4,
+   "eta": 0.8,
+   "n": 240,
+   "designs": 12,
+   "replicates_per_design": 400,
+   "rates": [
+    0.045,
+    0.0575,
+    0.0425,
+    0.06,
+    0.0675,
+    0.045,
+    0.04,
+    0.045,
+    0.0475,
+    0.0425,
+    0.045,
+    0.05
+   ],
+   "approx_max_noncentrality": [
+    0.6507919024134846,
+    0.8246243658794258,
+    0.6428245197093406,
+    0.5593697549754422,
+    0.5998993245073015,
+    0.5030301028160976,
+    0.44439388692865206,
+    0.4507074728292666,
+    1.0162841146916282,
+    0.4916463794577884,
+    0.3269859829574635,
+    0.5884074006561302
+   ]
+  }
+ ]
+}

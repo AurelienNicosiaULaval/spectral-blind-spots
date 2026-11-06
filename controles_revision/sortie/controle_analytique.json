@@ -1,0 +1,306 @@
+{
+  "nullspace_common_all_origins": {
+    "order": 10,
+    "n_basis": 440,
+    "n_origins": 41,
+    "null_dimension": 5,
+    "expected_dimension": 5,
+    "min_cos_principal_angle": 0.9999999999999996,
+    "relative_smallest_nonnull_singular_value": 0.49999999999999833
+  },
+  "nullspace_four_common_origins_order8": {
+    "n_basis": 288,
+    "null_dimension": 11,
+    "expected_if_no_extra_blind_spots": 4,
+    "blocks_involved": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        8,
+        8
+      ]
+    ],
+    "relative_smallest_nonnull_singular_value": 0.1233675484634305
+  },
+  "crossed_pi7_order6": {
+    "null_dimension": 0,
+    "blocks_involved": [],
+    "relative_smallest_nonnull_singular_value": 0.035913211725606055
+  },
+  "crossed_pi7_order7": {
+    "null_dimension": 29,
+    "blocks_involved": [
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        7,
+        7
+      ]
+    ],
+    "relative_smallest_nonnull_singular_value": 0.03501279252738988
+  },
+  "crossed_pi4_order3": {
+    "null_dimension": 0,
+    "blocks_involved": [],
+    "relative_smallest_nonnull_singular_value": 0.11208538229199122
+  },
+  "crossed_pi4_order4": {
+    "null_dimension": 17,
+    "blocks_involved": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "relative_smallest_nonnull_singular_value": 0.1035533905932732
+  },
+  "maximin": {
+    "1": {
+      "best": 0.9999999999999998,
+      "formula": 0.9999999999999999,
+      "maximizers_in_units_of_pi_over_M_plus_1": [
+        1.0
+      ]
+    },
+    "2": {
+      "best": 0.7071053821239643,
+      "formula": 0.7071067811865475,
+      "maximizers_in_units_of_pi_over_M_plus_1": [
+        1.0,
+        2.0
+      ]
+    },
+    "3": {
+      "best": 0.5411951202238213,
+      "formula": 0.5411961001461969,
+      "maximizers_in_units_of_pi_over_M_plus_1": [
+        1.0,
+        3.0
+      ]
+    },
+    "4": {
+      "best": 0.43701575544940807,
+      "formula": 0.43701602444882104,
+      "maximizers_in_units_of_pi_over_M_plus_1": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ]
+    },
+    "5": {
+      "best": 0.3660222828814172,
+      "formula": 0.36602540378443854,
+      "maximizers_in_units_of_pi_over_M_plus_1": [
+        1.0,
+        5.0
+      ]
+    },
+    "6": {
+      "best": 0.3146879742446616,
+      "formula": 0.31469212271294755,
+      "maximizers_in_units_of_pi_over_M_plus_1": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ]
+    },
+    "7": {
+      "best": 0.2758985123829867,
+      "formula": 0.27589937928294306,
+      "maximizers_in_units_of_pi_over_M_plus_1": [
+        1.0,
+        3.0,
+        5.0,
+        7.0
+      ]
+    },
+    "8": {
+      "best": 0.2455737187861415,
+      "formula": 0.2455756079379456,
+      "maximizers_in_units_of_pi_over_M_plus_1": [
+        1.0,
+        2.0,
+        4.0,
+        5.0,
+        7.0,
+        8.0
+      ]
+    },
+    "9": {
+      "best": 0.2212309040010868,
+      "formula": 0.2212317420824744,
+      "maximizers_in_units_of_pi_over_M_plus_1": [
+        3.0,
+        7.0
+      ]
+    },
+    "10": {
+      "best": 0.20126064892872123,
+      "formula": 0.2012635744130135,
+      "maximizers_in_units_of_pi_over_M_plus_1": [
+        1.0,
+        3.0,
+        8.0,
+        10.0
+      ]
+    }
+  },
+  "phase_contrast_formula_max_error": 1.6653345369377348e-16,
+  "arc_identity_abs_error": 3.720392949269069e-08,
+  "crps_identity": {
+    "excess": 0.07950434947230034,
+    "formula": 0.07950432587525687,
+    "abs_error": 2.3597043471990098e-08
+  },
+  "antipodal_arc_risk_range": [
+    1.5707963267948961,
+    1.5707963267948966
+  ],
+  "kernel_coefficients": {
+    "max_abs_error": 2.7755575615628914e-17,
+    "coefficients_0_to_8": [
+      0.2070019212239867,
+      0.17875083950243528,
+      0.11762650147276901,
+      0.061124338029666284,
+      0.02593999442826959,
+      0.0092443491731271,
+      0.0028291214954518406,
+      0.0007569846867715781,
+      0.00017967509175131693
+    ],
+    "ratio_order4_to_order1": 0.14511816839839897,
+    "ratio_order6_to_order1": 0.015827178788792747
+  },
+  "joint_tv_local_rare": 0.011377609853525697,
+  "joint_tv_local_common": 0.06643705915074936,
+  "joint_tv_phase_eta08": 0.25464790894703254,
+  "attenuation_order4_order6": [
+    0.3134861808826053,
+    0.0735345437630571
+  ]
+}

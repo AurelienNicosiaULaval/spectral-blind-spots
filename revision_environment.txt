@@ -1,0 +1,36 @@
+Revision environment, 10 October 2026 (Linux rerun and rebuild)
+Linux 6.18.44-fc-v114 x86_64
+
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 24.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
+
+locale:
+[1] C
+
+time zone: America/Toronto
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ggplot2_3.4.4
+
+loaded via a namespace (and not attached):
+ [1] utf8_1.2.4       R6_2.5.1         magrittr_2.0.3   gtable_0.3.4    
+ [5] glue_1.7.0       tibble_3.2.1     pkgconfig_2.0.3  lifecycle_1.0.4 
+ [9] cli_3.6.2        fansi_1.0.5      scales_1.3.0     grid_4.3.3      
+[13] vctrs_0.6.5      withr_2.5.0      compiler_4.3.3   munsell_0.5.0   
+[17] pillar_1.9.0     colorspace_2.1-0 rlang_1.1.3     
+
+Python 3.13.16 NumPy 2.5.3 SciPy 1.18.1
+pdfTeX 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian)
+Latexmk, John Collins, 31 Jan. 2024. Version 4.83
+BibTeX 0.99d (TeX Live 2023/Debian)
+
+Complete rerun: started 2026-10-10 11:46:30 UTC, completed 2026-10-10 12:31:49 UTC (2,719 s, two processes), numerical core MD5 2d6271ae15f2236cd9b61b79225188ba (identical to the original).

@@ -1,0 +1,3 @@
+48000 rotation outcomes, 12800 sensitivity outcomes and 2000 new calibration outcomes verified.
+Series/quadrature, margins, exchange equivariance, mixture positivity and conditional draws checked.
+Wind scores, 25 CV scores, probability-bin totals and training/evaluation sizes checked.

@@ -1,0 +1,6 @@
+144 real Fourier tensor blocks checked, coordinate orders 1 through 12.
+Exactly the six equal even-order blocks have rank three; all others have rank four.
+Maximum residual for the predicted antisymmetric null vector: 8.01062464164576e-15
+Four simulation origins 0, pi/8, pi/3, pi/4, orders 0-8: blind dimension 11 = 4 from Proposition 2 + 7 additional directions in blocks (2,8) (4,8) (6,8) (8,2) (8,4) (8,6) (8,8)
+The additional directions arise because 8a is a multiple of pi for a = pi/8 and pi/4.
+This finite calculation corroborates the analytical L2 proof; it is not that proof or an originality certificate.

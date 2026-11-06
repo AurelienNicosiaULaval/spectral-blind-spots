@@ -1,0 +1,6 @@
+Maximum common-origin residual: 8.52790060790198e-15
+Three independent-origin controls have nonzero amplitude and match exact formula.
+Conditional TV quadrature error: 1.96898053417272e-13
+Arc-risk quadrature error: 6.32383034826489e-13
+Singular-value formula checked for 32 orders and four angle choices.
+Numerical checks corroborate stated proofs; they do not certify originality.

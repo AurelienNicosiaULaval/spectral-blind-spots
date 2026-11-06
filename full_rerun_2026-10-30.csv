@@ -1,0 +1,11 @@
+"diagnostic","outcomes","seed_mismatches","decision_mismatches","p_value_mismatches","max_abs_p_difference","component_mismatches","max_relative_statistic_difference","field_position_mismatches"
+"canonical",5600,0,0,0,0,0,0,0
+"common_rotations",5600,0,0,0,0,0,0,0
+"coverage_known_model",5600,0,0,0,0,0,0,0
+"crossed_band6",5600,0,0,0,0,0,0,0
+"crossed_irrational",5600,0,0,0,0,0,0,0
+"crossed_pi4",5600,0,0,0,0,0,0,0
+"fourier_8",5600,0,0,0,0,0,0,0
+"marginal_8",5600,0,0,0,0,0,0,0
+"paired_mmd",5600,0,0,0,0,0,0,0
+"periodic_field",5600,0,0,0,0,0,0,0

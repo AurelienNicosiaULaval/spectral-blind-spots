@@ -1,0 +1,16 @@
+library(stats)
+library(utils)
+s <- read.csv('complement/synthese.csv'); raw <- read.csv('complement/resultats.csv')
+stopifnot(nrow(read.csv('complement/echecs.csv'))==0,all(s$n==100),nrow(raw)==4500)
+stopifnot(all(s$rejections==round(s$rate*s$n)))
+old <- read.csv('complement/resultats_avant_champs.csv'); now <- raw[raw$method %in% old$method,]
+old <- old[order(old$case,old$rep,old$method),]; now<-now[order(now$case,now$rep,now$method),]
+stopifnot(isTRUE(all.equal(old,now,check.attributes=FALSE)))
+r <- read.csv('complement/energie.csv'); stopifnot(is.na(r$ratio256[r$case=='fidelity']),max(abs(r$ratio256-r$ratio512),na.rm=TRUE)<1e-12)
+e <- read.csv('complement/toroidal_energie.csv'); stopifnot(max(abs(e$integral-1))<1e-12,abs(diff(e$ratio))<1e-12)
+cal <- read.csv('complement/calibration_supplementaire.csv'); stopifnot(nrow(cal)==500,sum(cal$reject)==33)
+p <- read.csv('application/paires.csv'); dates <- sort(unique(p$date)); stopifnot(length(dates)==73,nrow(p)==876,length(dates[1:50])==50)
+fit <- read.csv('application/ajustement.csv');stopifnot(fit$n_train==600,fit$n_test==276,fit$convergence==0)
+grid <- read.csv('application/champ.csv'); stopifnot(nrow(grid)==2048,all(is.finite(grid$difference)),min(grid$n_eff)>=20)
+b <- read.csv('resultats_simulation/population_blind_cells.csv');stopifnot(sum(b$diagnostic!='marginal_8')==26)
+cat('Validated the blind cells, outcome counts, energy grids and wind data split.\n')
